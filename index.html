@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+       
+    </head>
+    <body>
+        <div class="container">
+            <div class="container-teams">
+                <h3>HOME</h3>
+                <div class="container-scores" id="home-sum-el">0</div>
+                <div class="container-points">
+                    <button class="points" id="home-num1-el" onclick="homeadd1()">+1</button> <!-- I created onlick attribute and used the same name for function in js-->
+                    <button class="points" id="home-num2-el" onclick="homeadd2()">+2</button>
+                    <button class="points" id="home-num3-el" onclick="homeadd3()">+3</button>
+                </div>
+            </div>
+            <div class="container-teams">
+                <h3>GUEST</h3>
+                <div class="container-scores" id="guest-sum-el">0</div>
+                <div class="container-points">
+                        <button class="points" id="guest-num1-el" onclick="guestadd1()">+1</button>
+                        <button class="points" id="guest-num2-el" onclick="guestadd2()">+2</button>
+                        <button class="points" id="guest-num3-el" onclick="guestadd3()">+3</button>
+                </div
+                </div>
+            </div>
+        <script src="index.js"></script>
+    </body>
+</html>
